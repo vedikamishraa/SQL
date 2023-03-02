@@ -1,0 +1,73 @@
+Repositories
+Projects
+
+More
+Search
+
+
+SQL
+Source
+Commits
+Branches
+Pull requests
+Pipelines
+Deployments
+Jira issues
+Security
+Downloads
+
+JALA Academy
+Database
+SQL
+02.Queries.sql
+
+Pull requests
+
+Check out
+
+Source
+
+source:master
+
+
+8d59b12
+Full commit
+sql/
+02.Queries.sql
+
+
+Edit
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+USE SqlAssignment;
+
+--1.Display snum,sname,city and comm of all salespeople.
+SELECT Snum, Snum, City, Comm
+FROM SalesPeople;
+GO
+
+--2.Display all snum without duplicates from all orders.
+SELECT DISTINCT Snum
+FROM Orders;
+
